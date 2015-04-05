@@ -3,47 +3,122 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: "Lato", "Helvetica", sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-font-weight: 300;
+$base-line-height: 1.4;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #444;
+$background-color: #f9f9f9;
+$dark-color:       #222;
+$light-color:      #ddd;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+@media print {
+	* { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; }
+	a, a:visited { text-decoration: underline; }
+	a[href]:after { content: " (" attr(href) ")"; }
+	@page { margin: 0.5cm; }
+	p, h2, h3 { orphans: 3; widows: 3; }
+	h2, h3 { page-break-after: avoid; }
 }
 
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	margin: 0;
+	font-size: 1em;
+	line-height: $base-line-height;
+	background: $background-color;
+	font-family: $base-font-family;
+	color: $text-color;
+	text-align: center;
+}
 
+::-moz-selection {
+	background: $text-color;
+	color: $background-color;
+	text-shadow: none;
+}
+::selection {
+	background: $text-color;
+	color: $background-color;
+	text-shadow: none;
+}
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+header {
+	margin: 0;
+	padding: 4em 0 1em;
+	display: block;
+}
+header h1 {
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	font-weight: $base-font-weight;
+	margin: 0;
+	padding: 0;
+	color: $dark-color;
+	padding: 0 4em 1em;
+}
+header h2 {
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	font-weight: $base-font-weight;
+	margin: 0;
+	padding: 0 4em;
+}
+
+a,
+a:visited {
+	color: $text-color;
+	text-decoration: none;
+}
+a:hover {
+	color: $dark-color;
+	text-decoration: underline;
+}
+a:focus,
+a:hover,
+a:active {
+	outline: 0;
+}
+p {
+	font-weight: $base-font-weight;
+}
+
+nav {
+	padding: 1em 0 3em;
+}
+nav ul,
+nav ol {
+	list-style: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+nav ul li {
+	font-weight: $base-font-weight;
+	font-size: $base-font-size;
+	margin: 0;
+	margin-bottom: $spacing-unit;
+	padding: 0 0.5em;
+	display: inline-block;
+}
+nav ul li a {
+	display: block;
+	padding: 2px 6px;
+	border: 1px solid $light-color;
+	border-radius: 2px;
+}
+nav ul li a:hover {
+	background: $light-color;
+	text-decoration: none;
+}
+

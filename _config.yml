@@ -1,14 +1,33 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Luke Carbis
+url: "http://carb.is" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+email: luke@carb.is
+email_encoded: "yhxr@pneo.vf" # see http://rot13.com
+name: Luke Carbis
+position: WordPress Engineer
+company: WP Stream
+company_url: http://wp-stream.com/
+portfolio:
+  -
+    title: GitHub
+    url: http://github.com/lukecarbis
+  -
+    title: WordPress
+    url: http://profiles.wordpress.org/lukecarbis
+  -
+    title: Photos
+    url: http://luketakesphotos.wordpress.com/
+social:
+  -
+    title: Ello
+    url: https://ello.co/lukecarbis
+  -
+    title: Twitter
+    url: http://twitter.com/lukecarbis
+  -
+    title: Skype
+    url: skype:lukecarbis?call
 
 # Build settings
 markdown: kramdown
