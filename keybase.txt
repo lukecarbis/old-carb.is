@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/carbis
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://carb.is
+  * I am carbis (https://keybase.io/carbis) on keybase.
+  * I have a public key with fingerprint 7141 CB20 2C11 E5A7 1548  0949 1B55 2CC5 E5D8 79D0
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "7141cb202c11e5a7154809491b552cc5e5d879d0",
+            "host": "keybase.io",
+            "key_id": "1b552cc5e5d879d0",
+            "kid": "0101c5a3d1f1c3e5716c235e9cfdce9112552a49dbf490a45c212fc4f4f99774a2f80a",
+            "uid": "4676bfe2fcff223b3388f02e51231600",
+            "username": "carbis"
+        },
+        "revoke": {
+            "sig_ids": [
+                "9c9285ca897963dddfc53137b27e1dc21cf0c5c136f534ef94ca6b7d2f47fcc50f"
+            ]
+        },
+        "service": {
+            "hostname": "carb.is",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1428360593,
+    "expire_in": 157680000,
+    "prev": "a8e665f157b35c221040597650fbb5ac326e1e39e80dd5df29704d031d24b7ca",
+    "seqno": 20,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMJhAnicbZJbaBVHGMdPNBpMKmoq9gZaJyZSejjMdXfnWNtaRBGNGjAo9XKcnUvc
+pjl7smdPzFFjbImgVBGj5PStYgQVEbGSlD6UqBi1tNb4IvriBZVaS0tLoQT70M6G
+Cn3ovCzzzf//+3/z7VyZPjlVW/VGa3r0yZ3yWNV3lwZKqdaG6Yd3Aj9UZZDdCdr1
+xMcE+TYdFaIgH4MscBFF0scQS4Q0Ey5i1IOccuQzhqVkminP5QqCNNgWFhOHxfii
+qDNBaGt2kwuUrf6Pvn3iACKIJBNEIYMk0cxFjsSEaS6NkpojhK1RUK58QzkUlEmM
+sJHUUMO561KBjQeFxZUmcNRxHd9oqzAGY+IT4nkGYs0QJsiBSW6pqKO86NBWLUXk
+B0XQkwaR7grbdXL/YtBmWy6C7EbAJccek8LjLneIUspIRhBxfexqpGwj0kDJJCKO
+YYRqw6kUju8qbKhr7GWhAZst2+Z1BXICnszoP9kZG54GhSiMQxl+bIvb4riQTfqJ
+y4VEtF37uX/tOT/IK/tvrKFLR8UgzIMsskoZBwkPUewRBzJO0kB3F4JI54JEwVzH
+g3YlMbrLIoWnHYcZe+ATO0yMILUu17Hd+j4TkmBHI0249qBSTBnMXUgVJEhh6rsy
+GXVRd+ZDkMUWGos2y7Qzy4u4FGnQc/nipupUVW1q6pRJyfNK1U6b+eLRXW2u+btX
+DjcEp+v2PFwL05Xx/QvWjM29X7+7pf3trZ+8NbvtUuN4IFaPvbMLvTny3jcf9HdU
+i9mNs75f+dngwkU9a8dWbGxY2T8/9+Bp95LD5175mvQeK12een318OJ5heZnfQ0v
+dcerPh19/Lz56ZbPfxs5Xjk4WFn/xc2a9POWZTU3BoY65y5evvDA0i9HPlzvCXRx
+d/+FjhtN1cd3lOuOrjvSNOfH5tf6/nrZO793fEd9/x+Nv+w7Vflz1YKhXx91bt9y
+5vXBKe9ePfv+ng3R/B8OVV49cWHDt7nM8L2m8PyzzY/IzJNDW2dcm+d99WTgWnfl
+dktvoe6n03d3/b7o51vj5f3rMqOZ8qbooyWzHvRF/wCeiDm4
+=K0vM
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/carbis
+
+==================================================================
+
