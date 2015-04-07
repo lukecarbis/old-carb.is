@@ -1,27 +1,28 @@
 ---
 layout: default
 ---
-<p>
-	<script>
-	/* <![CDATA[ */
-	Rot13.writeEmailLink( '{{ site.email_encoded }}', '{{ site.email_encoded }}' );
-	/* ]]> */
-	</script>
-</p>
 
-<nav>
-	<ul class="links">
-		{% for link in site.portfolio %}
-		<li>
-			<a href="{{ link.url }}">{{ link.title }}</a>
-		</li>
+<section>
+	<p itemscope itemtype="http://schema.org/Person">
+		<span itemprop="name"><strong>{{ site.who }}</strong></span> is a <span itemprop="jobTitle">{{ site.what }}</span> in <span itemprop="workLocation">{{ site.where }}</span>
+	</p>
+</section>
+
+<section>
+	<p><strong>Work:</strong></p>
+	<ul>
+		{% for job in site.work %}
+		<li>{{ job | markdownify }}</li>
 		{% endfor %}
 	</ul>
-	<ul class="social">
-		{% for link in site.social %}
-		<li>
-			<a href="{{ link.url }}">{{ link.title }}</a>
-		</li>
-		{% endfor %}
-	</ul>
-</nav>
+</section>
+
+<section>
+	<p>
+		<script>
+			/* <![CDATA[ */
+			Rot13.writeEmailLink( '{{ site.email_encoded }}', '{{ site.email_encoded }}' );
+			/* ]]> */
+		</script>
+	</p>
+</section>
