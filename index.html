@@ -4,12 +4,12 @@ layout: default
 
 <section>
 	<p itemscope itemtype="http://schema.org/Person">
-		<span itemprop="name"><strong>{{ site.who }}</strong></span> is a <span itemprop="jobTitle">{{ site.what }}</span> in <span itemprop="workLocation">{{ site.where }}</span>
+		<span itemprop="name"><strong>{{ site.who }}</strong></span> is a <span itemprop="jobTitle">{{ site.what }}</span> in <span itemprop="workLocation">{{ site.where }}</span>.
 	</p>
 </section>
 
 <section>
-	<p><strong>Work:</strong></p>
+	<p><em>Some of my work:</em></p>
 	<ul>
 		{% for job in site.work %}
 		<li>{{ job | markdownify }}</li>
