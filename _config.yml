@@ -2,32 +2,17 @@
 title: Luke Carbis
 url: "http://carb.is" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
+who: Luke Carbis
+what: WordPress engineer
+where: Queensland, Australia
 email: luke@carb.is
 email_encoded: "yhxr@pneo.vf" # see http://rot13.com
-name: Luke Carbis
-position: WordPress Engineer
-company: WP Stream
-company_url: http://wp-stream.com/
-portfolio:
-  -
-    title: GitHub
-    url: http://github.com/lukecarbis
-  -
-    title: WordPress
-    url: http://profiles.wordpress.org/lukecarbis
-  -
-    title: Photos
-    url: http://luketakesphotos.wordpress.com/
-social:
-  -
-    title: Ello
-    url: https://ello.co/lukecarbis
-  -
-    title: Twitter
-    url: http://twitter.com/lukecarbis
-  -
-    title: Skype
-    url: skype:lukecarbis?call
+
+work:
+  - "Lead development and product design for [WP Stream](https://wp-stream.com)."
+  - "WordPress Engineer at [XWP](http://xwp.co), for [WordPress.com VIP](https://vip.wordpress.com)."
+  - "WordPress Meetup organiser for the [Sunshine Coast WordPress meetup group](https://wpsc.co)."
+  - "Office work for [Bridges for Peace](http://bridgesforpeace.com) (volunteer)."
 
 # Build settings
 markdown: kramdown
