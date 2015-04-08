@@ -6,21 +6,13 @@
 // Our variables
 $base-font-family: "Lora", serif;
 $base-font-size:   2.5em;
+$small-font-size:  2em;
 $base-font-weight: 300;
 $base-line-height: 1.4;
 
 $text-color:       #444;
 $background-color: #F4F4F6;
 $feature-color:    #F6ECAE;
-
-@media print {
-	* { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; }
-	a, a:visited { text-decoration: underline; }
-	a[href]:after { content: " (" attr(href) ")"; }
-	@page { margin: 0.5cm; }
-	p, h2, h3 { orphans: 3; widows: 3; }
-	h2, h3 { page-break-after: avoid; }
-}
 
 html {
 	font-size: 62.5%;
@@ -124,3 +116,19 @@ ul a:hover {
 	from { opacity: 0; }
 	to   { opacity: 1; }
 }
+
+@media screen and ( max-width: 640px ) {
+	body {
+		font-size: $small-font-size;
+	}
+}
+
+@media print {
+	* { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; }
+	a, a:visited { text-decoration: underline; background: transparent; }
+	a[href]:after { content: " (" attr(href) ")"; }
+	@page { margin: 0.5cm; }
+	p, h2, h3 { orphans: 3; widows: 3; }
+	h2, h3 { page-break-after: avoid; }
+}
+
