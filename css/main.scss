@@ -121,6 +121,12 @@ ul a:hover {
 	body {
 		font-size: $small-font-size;
 	}
+	main {
+		padding: 2em 2em 0;
+	}
+	section {
+		margin: 0 0 2em;
+	}
 }
 
 @media print {
