@@ -47,14 +47,14 @@ main {
 }
 
 ::-moz-selection {
-	background: $text-color;
-	color: $background-color;
+	background: $feature-color;
+	color: $text-color;
 	text-shadow: none;
 }
 
 ::selection {
-	background: $text-color;
-	color: $background-color;
+	background: $feature-color;
+	color: $text-color;
 	text-shadow: none;
 }
 
@@ -78,6 +78,7 @@ a {
 
 ul a {
 	background: $feature-color;
+	-webkit-box-shadow: inset 0 -4px $background-color;
 	-webkit-transition: background 0.25s; /* Safari, Chrome and Opera > 12.1 */ -moz-animation: fadein 2s; /* Firefox < 16 */
 	    -ms-transition: background 0.25s; /* Safari, Chrome and Opera > 12.1 */ -moz-animation: fadein 2s; /* Firefox < 16 */
 	     -o-transition: background 0.25s; /* Safari, Chrome and Opera > 12.1 */ -moz-animation: fadein 2s; /* Firefox < 16 */
