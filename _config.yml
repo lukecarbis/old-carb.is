@@ -9,11 +9,11 @@ email: luke@carb.is
 email_encoded: "yhxr@pneo.vf" # see http://rot13.com
 
 work:
-  - "Lead development and product design for [WP Stream](https://wp-stream.com)."
-  - "WordPress Engineer at [XWP](http://xwp.co), a [WordPress.com VIP](https://vip.wordpress.com) partner."
+  - "Lead developer at [WP Stream](https://wp-stream.com)."
+  - "WordPress Engineer at [XWP](http://xwp.co)."
+  - "National Zealous8:2 Coordinator at [Bridges for Peace](http://bridgesforpeace.com) (volunteer)."
   - "Meetup organiser for the [Sunshine Coast WordPress meetup](http://wpsc.co)."
   - "Speaker at WordCamps [Sydney](http://sydney.wordcamp.org/2014/) and [Wellington](http://wellington.wordcamp.org/2014/)."
-  - "Office work for [Bridges for Peace](http://bridgesforpeace.com) (volunteer)."
 
 # Build settings
 markdown: kramdown
