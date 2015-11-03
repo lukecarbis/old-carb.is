@@ -4,7 +4,7 @@ layout: default
 
 <section>
 	<p itemscope itemtype="http://schema.org/Person">
-		<span itemprop="name"><strong>{{ site.who }}</strong></span> is a <span itemprop="jobTitle">{{ site.what }}</span> for <a href="{{ site.employer_URI }}"><span itemprop="worksFor">{{ site.employer }}</span></a>, based in <span itemprop="workLocation">{{ site.where }}</span>.
+		<span itemprop="name"><strong>{{ site.who }}</strong></span> is a <span itemprop="jobTitle">{{ site.what }}</span> for <a href="{{ site.employer_URI }}"><span itemprop="worksFor">{{ site.employer }}</span></a>.
 	</p>
 </section>
 
@@ -25,4 +25,5 @@ layout: default
 			/* ]]> */
 		</script>
 	</p>
+	<p><em><span itemprop="workLocation">{{ site.where }}</span></em></p>
 </section>
