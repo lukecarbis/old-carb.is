@@ -11,10 +11,10 @@ email: luke@carb.is
 email_encoded: "yhxr@pneo.vf" # see http://rot13.com
 
 work:
-  - "Lead developer for [Stream](http://wp-stream.com)."
-  - "Lead developer for [Sabbath](https://sabbath.io)."
-  - "National Zealous8:2 Coordinator for [Bridges for Peace](http://bridgesforpeace.com) (volunteer)."
+  - "WordPress plugin development for [Stream](http://wp-stream.com)."
+  - "iOS application development for [Sabbath](https://sabbath.io)."
   - "Organiser for [WordPress Sunshine Coast](http://wpsc.co)."
+  - "Public speaking and Israel advocacy for [Bridges for Peace](http://bridgesforpeace.com)."
 
 # Build settings
 markdown: kramdown
