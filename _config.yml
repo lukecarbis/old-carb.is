@@ -13,8 +13,8 @@ email_encoded: "yhxr@pneo.vf" # see http://rot13.com
 work:
   - "WordPress plugin development for [Stream](http://wp-stream.com)."
   - "iOS application development for [Sabbath](https://sabbath.io)."
-  - "Organiser for [WordPress Sunshine Coast](http://wpsc.co)."
-  - "Public speaking and Israel advocacy for [Bridges for Peace](http://bridgesforpeace.com)."
+  - "Meetup organiser for [WordPress Sunshine Coast](http://wpsc.co)."
+  - "Public speaking and Israel advocacy with [Bridges for Peace](http://bridgesforpeace.com)."
 
 # Build settings
 markdown: kramdown
