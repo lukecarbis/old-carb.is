@@ -3,16 +3,18 @@ title: Luke Carbis
 url: "http://carb.is" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 who: Luke Carbis
-what: WordPress developer
+what: Product Manager
 where: Queensland, Australia
+employer: XWP
+employer_URI: https://xwp.co
 email: luke@carb.is
 email_encoded: "yhxr@pneo.vf" # see http://rot13.com
 
 work:
-  - "Product Manager for [XWP](http://xwp.co)."
-  - "Lead developer for [Stream](https://wp-stream.com)."
+  - "Lead developer for [Stream](http://wp-stream.com)."
+  - "Lead developer for [Sabbath](https://sabbath.io)."
   - "National Zealous8:2 Coordinator for [Bridges for Peace](http://bridgesforpeace.com) (volunteer)."
-  - "Organiser for [WordPress Sunshine Coast](http://wpsc.co), speaker at WordCamp [Sydney](http://sydney.wordcamp.org/2014/) and [Wellington](http://wellington.wordcamp.org/2014/)."
+  - "Organiser for [WordPress Sunshine Coast](http://wpsc.co)."
 
 # Build settings
 markdown: kramdown
